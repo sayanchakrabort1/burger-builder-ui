@@ -1,0 +1,20 @@
+
+.stylus{
+    cursor:pointer;
+    color: rgb(85, 85, 23);
+    padding: 5px;
+    background-color: #F7D246;
+    border: 2px solid rgb(128, 128, 37);
+    box-shadow: 2px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+@media(min-width: 500px){
+    .stylus{
+    cursor: none;
+    display: none;
+    }
+
+}
